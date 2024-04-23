@@ -27,3 +27,27 @@
    in a variable.Instead, data types are determined 
    automatically.
 */
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javascriptIsFun);
+console.log(typeof 23);
+console.log(typeof 'jimmy');
+console.log(typeof undefined);
+
+javascriptIsFun = 'YES!';
+console.log(javascriptIsFun);
+console.log(typeof javascriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1991;
+console.log(typeof year);
+
+console.log(typeof null);
+
+// null is an object which is regarded as a bug in javascript null should return null not an object just like undefined returns undefined. 
