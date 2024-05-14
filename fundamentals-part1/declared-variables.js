@@ -13,3 +13,8 @@ console.log(birthYear);
 // var is a legacy world used in Es6 in the older days
 // so its recommended to just stick with var or const 
 // in our current generations
+// Another thing never declare a variable without let or const
+// for example if u declare a variable like this;
+// lastName = 'Peter'; console.log(lastName) it will be executed 
+// true but the js will create a global property to the object which
+// was declared.
